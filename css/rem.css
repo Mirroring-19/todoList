@@ -1,0 +1,128 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 16px;
+	background-color: #DDDDDD;
+}
+.main {
+	padding: 0 0.1rem;
+}
+.topNav {
+	width: 3.75rem;
+	height: 0.5rem;
+	background-color: #323232;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.topNav .title {
+	width: 1.2rem;
+	height: 0.5rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.25rem;
+	color: #DDDDDD;
+	font-weight: 400;
+	margin: 0 0.1rem;	
+}
+.topNav input {
+	width: 2rem;
+	height: 0.3rem;
+	margin: 0 0.1rem;
+	border-radius: 0.05rem;
+	border: none;
+	outline: none;
+	padding: 0 0.1rem;
+}
+.todoTitle {
+	height: 0.6rem;
+	line-height: 0.6rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.doneTitle {
+	height: 0.6rem;
+	line-height: 0.6rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.content h1 {
+	font-size: 20px;
+}
+.todoList li {
+	display: flex;
+	height: 0.32rem;
+	align-items: center;
+	background-color: #FFFFFF;
+	margin-bottom: 0.1rem;
+	border-left: #629A9C solid 0.05rem;
+	border-radius: 0.05rem;
+}
+.todoList li input[type='checkbox'] {
+	width: 0.25rem;
+	height: 0.25rem;
+	margin: 0 0.05rem;
+}
+.todoList li p {
+	width: 2.6rem;
+}
+.todoList li a {
+	position: absolute;
+	right: 0.15rem;
+	width: 0.15rem;
+	height: 0.15rem;
+	font-size: 0.12rem;
+	background-color: #CCCCCC;
+	text-align: center;
+	border: 0.05rem double white;
+	border-radius: 0.5rem;
+	line-height: 0.15rem;
+	color: white;
+	font-weight: 900;
+}
+.doneList li {
+	display: flex;
+	padding: 0 0.1rem;
+	height: 0.32rem;
+	align-items: center;
+	background-color: #FFFFFF;
+	margin-bottom: 0.1rem;
+	border-left: #629A9C solid 0.05rem;
+	border-radius: 0.05rem;
+	opacity: 0.7;
+}
+.doneList li input[type='checkbox'] {
+	width: 0.25rem;
+	height: 0.25rem;
+	margin: 0 0.05rem;
+}
+.doneList li p {
+	width: 2.6rem;
+}
+.doneList li a {
+	position: absolute;
+	right: 0.15rem;
+	width: 0.15rem;
+	height: 0.15rem;
+	font-size: 0.12rem;
+	background-color: #CCCCCC;
+	text-align: center;
+	border: 0.05rem double white;
+	border-radius: 0.5rem;
+	line-height: 0.15rem;
+	color: white;
+	font-weight: 900;
+}
+.footer {
+	color: #666666;
+	text-align: center;
+}
+.footer a {
+	color: #999999;
+	text-align: center;
+	cursor: pointer;
+}

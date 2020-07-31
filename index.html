@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		<link rel="stylesheet" media="(max-width:640px)" text/css" href="css/rem.css"/>
+		<link rel="stylesheet" media="(min-width:640px)" text/css" href="css/todoList.css"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+	<body>
+		<form action="javascript:submitAdd()" method="">
+			<div class="topNav">
+				<div class="title">ToDoList</div>
+				<div class="addTodo"> <input type="text" name="addTodo" id="addTodo" value="" required="required" placeholder="添加ToDo"/></div>
+			</div>
+		</form>
+		
+		<div class="main">
+			<div class="content">
+				<div class="todoTitle"><h1>正在进行</h1><span id="todoCount">0</span></div>
+				<ol class="todoList"></ol>
+				<div class="doneTitle"><h1>已经完成</h1><span id="doneCount">0</span></div>
+				<ol class="doneList"></ol>
+			</div>
+			<div class="footer">
+				Copyright © 2020 Mirroring-19 <a onclick="clearAllStorage()">clearAll</a>
+			</div>
+		</div>
+		
+		<!-- rem布局 -->
+		<script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/todoList.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
